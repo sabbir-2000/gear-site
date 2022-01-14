@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&family=Karla:wght@800&family=Montserrat:ital,wght@0,500;1,400&family=Nanum+Gothic&family=Poppins:wght@500&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Karla', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+main{
+    margin-left: 2em;
+    padding: 5%;
+}
+/* top-section-comment */
+.top-influencer{
+    display: flex;
+   
+}
+/* lets do style in left-side */
+.left-side{
+    font-size: 1.08em;
+    width: 50%;
+    
+}
+.linkbutton{
+    background-color: #E02C6D;
+    color: white;
+    padding:10px 40px ;
+    border-radius: 25px;
+    font-weight: 800;
+}
+/* camera-side comment */
+.camera-side img{
+    width: 80%;
+    margin-left: 15%;
+}
+
+
+    
+    
+
