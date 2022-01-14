@@ -44,24 +44,40 @@ main{
     width: 80%;
     margin-left: 15%;
 }
+
+
 /* new section start */
-.top-collection{
+.top-collection h3{
     text-align: center;
     margin-top: 3.3em;
 }
+.products{
+    margin-top: 2em;
+
+}
+.product-title{
+    font-size: 20px;
+    font-weight: 700;
+    
+}
+.product-star .field{
+    color: orange;
+}
+.text{
+    word-wrap: wrap;
+}
+
+
+
+
+
+
+
 /* own-try-port */
 .hero-side img{
     margin-top: 7em;
     
    
-}
-/* now right-site comment */
-
-.right-side{
-    font-size: 1.08em;
-    width: 70%;
-    
-    
 }
 .pragraph-side{
     margin-top: 15em;
@@ -75,6 +91,11 @@ main{
     font-weight: 800;
 
     }
+    /* ____----popular collection comment___------ */
+    .top-collection{
+        margin-top: 2em;
+    }
+
     /* footer comment */
     .last-footer{
         background-color: #0A0826;
