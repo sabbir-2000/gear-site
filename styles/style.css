@@ -58,26 +58,32 @@ main{
     margin-top: 3em;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-row-gap:25px;
-    grid-column-gap:25px;
+    grid-row-gap:10px
+   
     
    
 
 }
 .product{
-    box-shadow: 5px 5px 5px rgba(0,0,0,.2);
-   padding-left: 30px;
+    box-shadow: 10px 5px 5px rgba(0,0,0,.2);
+   
     align-items: center;
     width: 350px;
-    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+    
     
 
-}
+
 
 
 .product .product-banner img{
-    width: 177px;
-    height: 127px;
+    width: 320px;
+    height: 187px;
+    margin-right: 0;
+   
     
 }
 .product-title{
@@ -90,6 +96,7 @@ main{
 }
 .text{
     word-wrap: wrap;
+    margin-right: 30px;
 }
 
 
@@ -117,8 +124,9 @@ main{
 
     }
     /* ____----popular collection comment___------ */
-    .top-collection{
-        margin-top: 2em;
+    .top-collection h3{
+        margin-top: 3em;
+        font-size: 25px;
     }
 
     /* footer comment */
