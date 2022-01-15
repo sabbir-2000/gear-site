@@ -183,5 +183,24 @@ main{
         color: white;
         font-size: 18px;
     }
+    /* responsive css for mobile*/
+    @media (max-width:688px){
+        .body{
+            width: 100%;
+        }
+        .products, .hero-side, .last-footer{
+            grid-template-columns: repeat(1, 1fr);
+        
+        }
+        .top-influencer, .product, .pragraph-side, .last-footer{
+            flex-direction: column;
+        }
+        
+        
+        
+        
+        
+
+    }
 
 
