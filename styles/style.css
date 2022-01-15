@@ -18,6 +18,7 @@ header{
 main{
     margin-left: 2em;
     padding: 5%;
+    
 }
 /* top-section-comment */
 .top-influencer{
@@ -25,6 +26,10 @@ main{
     margin-bottom: 3em;
    
    
+}
+.pragraph-side{
+    margin-top: 8em;
+    margin-left: 20px;
 }
 /* lets do style in left-side */
 .left-side{
@@ -125,14 +130,22 @@ main{
 
 /* own-try-port */
 .hero-side img{
-    margin-top: 7em;
+    margin-top: 5em;
+    margin-right: 20px;
+    margin-left: 3em;
+    width: 80%;
     
    
 }
-.pragraph-side{
-    margin-top: 8em;
-    margin-left: 15em;
+.member-side{
+    margin-left: 8em;
+    margin-top: 7em;
 }
+.right-side{
+    width: 50%;
+}
+
+
     .joinbutton{
         outline: 0;
         border: 0;
@@ -168,6 +181,12 @@ main{
     }
 
     /* footer comment */
+    footer{
+        width: 100%;
+        
+    }
+    
+   
     .last-footer{
         background-color: #0A0826;
         color: white;
@@ -176,6 +195,7 @@ main{
         text-align: center;
         font-size: 24px;
         font-weight: 400;
+        
     }
     
     .icon{
@@ -195,12 +215,33 @@ main{
         .top-influencer, .product, .pragraph-side, .last-footer{
             flex-direction: column;
         }
+        .programing-side{
+            margin-top: 2em;
+           
+           
+        }
+        .top-influencer{
+            align-items: center;
+        }
+        .last-footer{
+           width: 100%;
+        }
+       
+    }
         
-        
-        
+        /* tablet device responsive*/
+        @media only screen and (min-width: 688px) and (max-width:992px) {
+            body{
+                width: 100%;
+            }
+            .top-influencer, .products, .hero-side, .last-footer{
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+        }
         
         
 
-    }
+    
 
 
