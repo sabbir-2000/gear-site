@@ -50,9 +50,17 @@ main{
     box-shadow: 0 2px 0 #831b41;
 }
 /* camera-side comment */
-.camera-side img{
-    width: 80%;
+.programing-side img{
+    width: 100%;
     margin-left: 15%;
+    background-color: salmon;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {background-color: salmon;}
+    to {background-color: yellow;}
 }
 
 
@@ -175,4 +183,5 @@ main{
         color: white;
         font-size: 18px;
     }
+
 
