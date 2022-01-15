@@ -18,8 +18,9 @@ header{
 main{
     margin-left: 2em;
     padding: 5%;
-    
 }
+    
+
 /* top-section-comment */
 .top-influencer{
     display: flex;
@@ -182,15 +183,29 @@ main{
 
     /* footer comment */
     footer{
-        width: 100%;
-        
+       
+
     }
+    footer{
+        background-color: #0A0826;
+
+    }
+.foot-bar{
     
+
+   
+   width: 80%;
+  
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+}   
    
     .last-footer{
         background-color: #0A0826;
+       
         color: white;
-        padding: 25px;
+       padding: 25px;
         font-family: monospace;
         text-align: center;
         font-size: 24px;
@@ -223,9 +238,10 @@ main{
         .top-influencer{
             align-items: center;
         }
-        .last-footer{
-           width: 100%;
+        .foot-bar{
+           width: ;
         }
+        
        
     }
         
