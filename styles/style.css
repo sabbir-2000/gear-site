@@ -33,11 +33,21 @@ main{
     
 }
 .linkbutton{
+    outline: 0;
+    border: 0;
     background-color: #E02C6D;
     color: white;
     padding:10px 40px ;
     border-radius: 25px;
     font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 7px 0 #831b41;
+    position: relative;
+    top: 0;
+}
+.linkbutton:active{
+    top: 5px;
+    box-shadow: 0 2px 0 #831b41;
 }
 /* camera-side comment */
 .camera-side img{
@@ -112,16 +122,36 @@ main{
    
 }
 .pragraph-side{
-    margin-top: 15em;
+    margin-top: 8em;
     margin-left: 15em;
 }
     .joinbutton{
+        outline: 0;
+        border: 0;
         background-color: #E02C6D;
     color: white;
     padding:10px 40px ;
+    cursor: pointer;
     
     font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 7px 0 #831b41;
+    position: relative;
+    top: 0;
 
+    }
+    .joinbutton:active{
+        top: 5px;
+    box-shadow: 0 2px 0 #831b41;
+
+    }
+    /* small-text comment */
+    .small-text{
+        float: right;
+        margin-right: 150px;
+        color: #E02C6D;
+        font-weight: 600;
+        cursor: pointer;
     }
     /* ____----popular collection comment___------ */
     .top-collection h3{
